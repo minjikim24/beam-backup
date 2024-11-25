@@ -64,3 +64,34 @@ test/input/fares/fares.dat
 test/input/sf-light/warmstart/warmstart_*
 *.log
 __pycache__
+
+# 운영 체제 관련
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# 환경 변수
+.env
+.env.local
+
+# 로그 파일
+*.log.*
+*.gz
+
+# Python 추가 항목
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# 임시 파일
+*.tmp
+*.swp
+*.bak
+*.old
+
+#.gitignore파일에 제외할 폴더 추가
+src/main/python/city_specific_analysis/.ipynb_checkpoints/
+beam-data-sfbay/
+beam/
+gradle-6.0/
